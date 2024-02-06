@@ -46,14 +46,5 @@ uint16_t ADC_Read(uint16_t ADC_Channel){
 	
 	return ADC_value;
 
-	//int Ain,AinLow;
-	//
-	//ADMUX = (ADMUX & 0xE0) | ADC_Channel;
-	//set_bit(ADCSRA,ADSC);
-	//while(read_bit(ADCSRA,ADIF)==0);
-	//_delay_us(10);
-	//AinLow = (int)ADCL;
-	//Ain = (int)ADCH*256;
-	//Ain = Ain+AinLow;
-	//return Ain;
+
 }
